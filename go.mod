@@ -12,11 +12,11 @@ require (
 	github.com/onsi/gomega v1.19.0
 	github.com/prometheus/client_golang v1.13.0
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.8.0
+	github.com/stretchr/testify v1.8.1
 	github.com/vishvananda/netlink v1.1.0
-	go.etcd.io/etcd/api/v3 v3.5.5
+	go.etcd.io/etcd/api/v3 v3.5.9
 	go.etcd.io/etcd/client/v2 v2.305.5
-	go.etcd.io/etcd/client/v3 v3.5.4
+	go.etcd.io/etcd/client/v3 v3.5.9
 	golang.org/x/net v0.7.0
 	k8s.io/api v0.25.0
 	k8s.io/apimachinery v0.25.0
@@ -86,7 +86,7 @@ require (
 	github.com/spf13/cobra v1.4.0 // indirect
 	github.com/tinylib/msgp v1.1.2 // indirect
 	github.com/vishvananda/netns v0.0.0-20200728191858-db3c7e526aae // indirect
-	go.etcd.io/etcd/client/pkg/v3 v3.5.5 // indirect
+	go.etcd.io/etcd/client/pkg/v3 v3.5.9 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
 	go.uber.org/zap v1.19.0 // indirect
@@ -115,7 +115,7 @@ require (
 
 replace (
 	// pinned latest version for vulnerability fixes
-    // this one is used by coredns
+	// this one is used by coredns
 	// if coredns starts using >= v0.14.0 this pinned version can be removed
 	github.com/apache/thrift => github.com/apache/thrift v0.14.0
 
