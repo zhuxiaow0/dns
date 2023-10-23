@@ -22,7 +22,7 @@ require (
 	k8s.io/apimachinery v0.25.0
 	k8s.io/client-go v0.24.7
 	k8s.io/component-base v0.24.7
-	k8s.io/klog/v2 v2.80.1
+	k8s.io/klog/v2 v2.100.1
 	k8s.io/kubernetes v1.24.10
 	k8s.io/utils v0.0.0-20220728103510-ee6ede2d64ed
 )
@@ -115,7 +115,7 @@ require (
 
 replace (
 	// pinned latest version for vulnerability fixes
-    // this one is used by coredns
+	// this one is used by coredns
 	// if coredns starts using >= v0.14.0 this pinned version can be removed
 	github.com/apache/thrift => github.com/apache/thrift v0.14.0
 
