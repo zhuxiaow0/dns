@@ -14,7 +14,7 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.0
 	github.com/vishvananda/netlink v1.1.0
-	go.etcd.io/etcd/api/v3 v3.5.5
+	go.etcd.io/etcd/api/v3 v3.5.9
 	go.etcd.io/etcd/client/v2 v2.305.5
 	go.etcd.io/etcd/client/v3 v3.5.4
 	golang.org/x/net v0.7.0
@@ -115,7 +115,7 @@ require (
 
 replace (
 	// pinned latest version for vulnerability fixes
-    // this one is used by coredns
+	// this one is used by coredns
 	// if coredns starts using >= v0.14.0 this pinned version can be removed
 	github.com/apache/thrift => github.com/apache/thrift v0.14.0
 
